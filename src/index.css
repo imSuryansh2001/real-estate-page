@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn{
+        @apply bg-[#1BDF8D] px-4 py-2 shadow-gray-500 shadow-md text-white rounded-md font-semibold font-myFont tracking-[0.1rem]
+    }
+}
+
